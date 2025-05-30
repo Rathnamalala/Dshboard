@@ -4,9 +4,8 @@ import { activeRecordingLiveData } from '../../data/mockData';
 
 const ActiveRecordingLive = () => {
   const data = activeRecordingLiveData;
-  
-  return (
-    <Card className="card-dark fade-in">
+    return (
+    <Card className="card-dark fade-in card-gradient">
       <Card.Body>
         <h6 className="section-header">ACTIVE RECORDING</h6>
         

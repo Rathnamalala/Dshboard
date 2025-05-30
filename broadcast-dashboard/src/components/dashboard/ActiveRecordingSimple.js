@@ -5,9 +5,8 @@ import { activeRecordingsData } from '../../data/mockData';
 const ActiveRecordingSimple = ({ index = 0 }) => {
   // Allow overriding the index to show different data
   const recording = activeRecordingsData[index % activeRecordingsData.length];
-  
-  return (
-    <Card className="card-dark fade-in">
+    return (
+    <Card className="card-dark fade-in card-gradient">
       <Card.Body>
         <h6 className="section-header">ACTIVE RECORDING {index + 2}</h6>
         

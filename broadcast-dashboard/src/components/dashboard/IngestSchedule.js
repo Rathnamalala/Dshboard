@@ -4,9 +4,8 @@ import { ingestScheduleData } from '../../data/mockData';
 
 const IngestSchedule = () => {
   const scheduleItem = ingestScheduleData[0];
-  
-  return (
-    <Card className="card-dark fade-in">
+    return (
+    <Card className="card-dark fade-in card-gradient">
       <Card.Body>
         <div className="d-flex justify-content-between align-items-center mb-3">
           <h6 className="section-header mb-0">INGEST SCHEDULE</h6>

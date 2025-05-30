@@ -11,9 +11,8 @@ const InputMonitor = () => {
 
   const handleInputClick = (inputId) => {
     console.log(`Input ${inputId} clicked`);
-  };
-  return (
-    <Card className="card-dark fade-in">
+  };  return (
+    <Card className="card-dark fade-in card-gradient">
       <Card.Body>
         <div className="d-flex justify-content-between align-items-center mb-3">
           <h6 className="section-header mb-0">INPUT MONITOR</h6>

@@ -4,9 +4,8 @@ import { ingestHistoryData } from '../../data/mockData';
 
 const IngestHistory = () => {
   const historyData = ingestHistoryData;
-
   return (
-    <Card className="card-dark fade-in">
+    <Card className="card-dark fade-in card-gradient">
       <Card.Body>
         <div className="d-flex justify-content-between align-items-center mb-3">
           <h6 className="section-header mb-0">INGEST HISTORY</h6>
